@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Sverige';
+  src: url('../fonts/sverige.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Handwritten';
+  src: url('../fonts/phitradesign.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
