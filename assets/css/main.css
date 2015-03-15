@@ -235,6 +235,7 @@ a:before, a:after {
 	font-weight: 400;
 	text-align: center;
 	letter-spacing: 3px;
+	line-height: 1.6;
 }
 #headerwrap p {
 	color: #fff;
@@ -378,6 +379,12 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
    Image Mask
    ========================================================================== */
 
+#sunflower {
+	display: block;
+	width: auto;
+	max-width: 200px;
+}
+
 .grid figure {
 	margin: 0;
 	position: relative;
@@ -480,9 +487,6 @@ body .header {
 }
 
 @media screen and (max-width:769px) {
-#headerwrap h1 {
-	font-size: 80px;
-}
 #headerwrap p {
 	font-size: 30px;
 	line-height: 38px;
