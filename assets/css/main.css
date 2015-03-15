@@ -227,17 +227,18 @@ a:before, a:after {
 	-o-background-size: cover;
 	background-size: cover;
 	padding-bottom: 100px;
+	text-shadow: 2px 2px 2px #000000;
 }
 #headerwrap h1 {
 	color: #ffffff;
-	font-size: 50px;
+	font-size: 100px;
 	font-weight: 400;
 	text-align: center;
 	letter-spacing: 3px;
 }
 #headerwrap p {
 	color: #fff;
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
 	letter-spacing: 1px;
