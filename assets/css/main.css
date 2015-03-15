@@ -260,22 +260,22 @@ a:before, a:after {
 	background-color: #e9af03;
 	outline: 0px;
 }
-#about {
+#location {
 	background: #fff;
 	padding: 60px 0;
 }
-#about img {
+#location img {
 	margin-top: 65px;
 }
-#services {
+#schedule {
 	background: #f5f5f5;
 	padding: 60px 0;
 	text-align: center;
 }
-#services .fa {
+#schedule .fa {
 	color: #ffbf00;
 }
-#services p {
+#schedule p {
 	text-align: center;
 }
 #team {
@@ -306,11 +306,11 @@ a:before, a:after {
 #team .fa:hover {
 	background-color: #ffbf00;
 }
-#portfolio {
+#registry {
 	background: #fff;
 	padding: 60px 0;
 }
-#portfolio .btn-default {
+#registry .btn-default {
 	border: 0;
 }
 #contact {
