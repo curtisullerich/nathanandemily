@@ -6,6 +6,20 @@ body {
 	line-height: 1.4;
 }
 
+#map-inner {
+	display: inline-block;
+	position: relative;
+	right: -50%;
+}
+#map-outer {
+	width: 100%;
+	overflow: hidden;
+}
+#map-img {
+	position: relative;
+	left: -50%;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
