@@ -306,6 +306,13 @@ a:before, a:after {
 #registry .btn-default {
 	border: 0;
 }
+#photos {
+	background: #f5f5f5;
+	padding: 60px 0;
+}
+#photos p {
+	text-align: justify;
+}
 #greywrap {
 	background: #f5f5f5;
 	margin-top: 0px;
