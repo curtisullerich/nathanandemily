@@ -248,6 +248,7 @@ a:before, a:after {
 #headerwrap h1 {
 	color: #ffffff;
 	font-size: 100px;
+	font-size: 10vw;
 	font-weight: 400;
 	text-align: center;
 	letter-spacing: 3px;
