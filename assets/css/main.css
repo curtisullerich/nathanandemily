@@ -302,11 +302,11 @@ a:before, a:after {
 #schedule p {
 	text-align: center;
 }
-#registry {
+#gifts {
 	background: #fff;
 	padding: 60px 0;
 }
-#registry .btn-default {
+#gifts .btn-default {
 	border: 0;
 }
 #photos {
