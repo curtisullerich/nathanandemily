@@ -7,7 +7,10 @@ function simplePluralize(str, quantity) {
   return str + "s";
 }
 
-function subtractDays(date1, date2) {
+function differenceInDays(dateA, dateB) {
+  // Copy these instead of mutating the objects.
+  date1 = new Date(dateA)
+  date2 = new Date(dateB)
   date1.setHours(0,0,0,0);
   date2.setHours(0,0,0,0);
 
@@ -35,7 +38,7 @@ function setMessage(element, message) {
 
 var targetDate = new Date('June, 13, 2015');
 var currentDate = new Date();
-var daysBeforeEvent = subtractDays(targetDate, currentDate);
+var daysBeforeEvent = differenceInDays(targetDate, currentDate);
 var message = getDateSpecificMessage(daysBeforeEvent);
 var countdownElement = document.getElementById('countdown');
 setMessage(countdownElement, message)
@@ -50,7 +53,7 @@ function test(expected, actual) {
 
 // Some basic tests to check any changes for regressions.
 // Uncomment, load the page, and check the js console for results.
-/* 
+/*
 test("2 days to go!", getDateSpecificMessage(2));
 test("1 day to go!", getDateSpecificMessage(1));
 test("Today is the big day!", getDateSpecificMessage(0));
@@ -58,7 +61,7 @@ test("1 day of wedded bliss and counting!", getDateSpecificMessage(-1));
 test("2 days of wedded bliss and counting!", getDateSpecificMessage(-2));
 
 var march22 = new Date("2015-03-22 00:00:00.0");
-test(1, subtractDays(march22, new Date("2015-03-21 03:47:00.0")));
-test(0, subtractDays(new Date("2015-03-22 15:47:00.0"), march22));
-test(-1, subtractDays(march22, new Date("2015-03-23 00:00:00.0")));
+test(1, differenceInDays(march22, new Date("2015-03-21 03:47:00.0")));
+test(0, differenceInDays(new Date("2015-03-22 15:47:00.0"), march22));
+test(-1, differenceInDays(march22, new Date("2015-03-23 00:00:00.0")));
 */
