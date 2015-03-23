@@ -316,6 +316,13 @@ a:before, a:after {
 #photos p {
 	text-align: justify;
 }
+#print {
+	background: #fff;
+	padding: 60px 0;
+}
+#print .btn-default {
+	border: 0;
+}
 #greywrap {
 	background: #f5f5f5;
 	margin-top: 0px;
