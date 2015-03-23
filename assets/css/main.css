@@ -254,6 +254,7 @@ a:before, a:after {
 	text-align: center;
 	letter-spacing: 3px;
 	line-height: 1.6;
+	display: inline-block;
 }
 #home.headerwrap p {
 	color: #fff;
