@@ -329,18 +329,6 @@ a:before, a:after {
 	background: #f5f5f5;
 	padding: 60px 0;
 }
-#songs label {
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 250px;
-    text-align: right;
-}
-#songs input {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-}
 #print {
 	background: #fff;
 	padding: 60px 0;
