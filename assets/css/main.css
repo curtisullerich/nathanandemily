@@ -311,11 +311,11 @@ a:before, a:after {
 #hotels img {
 	max-height: 100px;
 }
-#gifts {
+#registry {
 	background: #f5f5f5;
 	padding: 60px 0;
 }
-#gifts .btn-default {
+#registry .btn-default {
 	border: 0;
 }
 #photos {
